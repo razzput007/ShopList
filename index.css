@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    max-width: 80%;
+    margin: 0px;
+}
+th{
+    height: 50px;
+}
+td{
+    font-size: 20px;
+    padding: 5px;
+}
+.head{
+    background-color: black;
+    color: white;
+}
+.row{
+    height: 75px;
+    text-align: center;
+}
+
+@media only screen 
+and (max-device-width : 480px)
+and (min-device-width : 320px) {
+
+
+}
+  
